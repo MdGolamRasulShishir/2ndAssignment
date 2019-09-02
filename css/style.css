@@ -1,0 +1,70 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+
+	background:url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background:cover;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+
+	width: 550px;
+	
+	margin: 10% auto;
+	
+}
+.login-section{
+	background-color: cyan;
+	padding: 40px;
+	float: left;
+}
+.login-section img{
+	margin:0px auto;
+	display: block;
+}
+
+.login-section h3{
+	text-align: center;
+	color:white;
+	font-style: oblique;
+	font-size: 28px;
+	text-transform: capitalize;
+}
+.form-control{
+	width: 97%;
+	height: 25px;
+	padding: 5px;
+	margin-bottom: 10px;
+
+}
+.btn{
+	margin:0px auto;
+	display: block;
+	background-color: grey;
+	padding: 6px 5px 5px 5px;
+	color: white;
+	border: none;
+	text-transform: uppercase;
+	transition: 0.8s ease;
+}
+.btn:hover{
+	box-shadow: 4px 5px 8px blue;
+	cursor: pointer;
+
+}
+.signup-reset-control a{
+	margin:0px auto;
+	display: block;
+	padding: 6px 5px 5px 5px;
+	font-family:sans-serif;
+	color: grey;
+}
+	
+
